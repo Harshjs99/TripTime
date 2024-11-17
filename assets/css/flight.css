@@ -1,0 +1,125 @@
+.main{
+    background-color: hsl(190, 29%, 12%);
+}
+
+.home{
+    height: 783px;
+}
+
+.flight-container{
+    position: relative;
+    top: 30rem;    
+}
+
+.flight-logo-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.flight-title{
+    background-color: white;
+    position: relative;
+    padding: 1rem 2rem;
+    display: flex;
+    column-gap: .5rem;
+}
+.flight-subtitle{
+    display: grid;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "lato", sans-serif;
+    color: hsl(190, 64%, 22%);
+}
+.flight-way{
+    display: flex;
+    justify-content: center;
+    color: hsl(190, 64%, 22%);
+    padding: 1rem 0 1.5rem ;
+    background-color: white;
+    column-gap: 5rem;
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: "lato", sans-serif;
+}
+.way{
+    display: flex;
+    column-gap: .7rem;
+}
+.flight-way-data{
+    color: hsl(190, 64%, 22%);
+}
+.flight-form{
+    background-color: white;
+    padding-bottom: 2rem;
+}
+.form-data{
+    display: flex;
+    justify-content: space-around;
+}
+.input-div{
+    display: grid;
+    width: 20%;
+}
+.search-flight{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding-bottom: 2rem;
+}
+.btn{
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.label{
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: "lato", sans-serif;
+    padding-bottom: .5rem;
+    color: hsl(190, 64%, 22%);
+}
+.input{
+    height: 2.5rem;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    outline: none;
+    font-family: "raleway", sans-serif;
+    font-weight: 500;
+}
+.title{
+    color: white;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.about-box{
+    height: 350px;
+    display: grid;
+    grid-template-columns: repeat(3, max-content);
+    justify-content: space-around;
+}
+.about-box1, .about-box2, .about-box3{
+    display: grid;
+    padding: 3rem 2rem;
+    background-color: white;
+    border-radius: 7px;
+    width: 300px;
+}
+.box-img{
+    padding-bottom: 1rem;
+    width: 100px;
+    position: relative;
+    left: 4.2rem;
+}
+.box-title{
+    color: rgb(0, 0, 0);
+    font-family: "raleway", sans-serif;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+.box-subtitle{
+    color: rgb(0, 0, 0);
+    font-family: "raleway", sans-serif;
+    text-align: center;
+}

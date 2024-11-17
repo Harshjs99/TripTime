@@ -1,0 +1,288 @@
+.nav-logo{
+    color: #000;
+}
+.nav-link{
+    color: #000;
+}
+.header{
+    background-color: #fff;
+    box-shadow: 0 0 70px rgb(0 0 0 / 30%);
+}
+.main{
+    position: relative;
+    top: 72px;
+}
+.main-title{
+    color: #000;
+    text-align: center;
+    font: 800 51px Urbanist, sans-serif;
+    padding-top: 5rem;
+}
+.search-form{
+    border-radius: 80px;
+    display: flex;
+    margin-top: 84px;
+    width: 872px;
+    align-items: center;
+    color: #aaa;
+    text-align: center;
+    justify-content: space-between;
+    padding: 24px 46px;
+    font: 500 24px Urbanist, sans-serif;
+    border: 1px solid #a8a8a8;
+    margin: 5rem auto 8rem;
+}
+.search-label{
+    align-self: stretch;
+    border: none;
+    outline: none;
+    color: #292929;
+    font-size: 1.5rem;
+    font-weight: 500;
+    width: 80%;
+}
+.search-icon{
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 32px;
+    align-self: stretch;
+    margin: auto 0;
+}
+.content-wrapper{
+    margin-bottom: 6rem;
+}
+.header-container{
+    position: relative;
+    display: flex;
+    min-height: 107px;
+    width: 100%;
+    align-items: center;
+    font-family: Urbanist, sans-serif;
+    justify-content: space-between;
+}
+.header-title {
+    color: #000;
+    font-size: 40px;
+    font-weight: 700;
+}
+.header-subtitle {
+    color: #404040;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.review-button {
+    border-radius: 40px;
+    display: flex;
+    gap: 14px;
+    font-size: 20px;
+    color: #115779;
+    font-weight: 600;
+    padding: 13px 10px;
+    border: 1px solid #115779;
+    align-items: center;
+    cursor: pointer;
+}
+.review-icon {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 32px;
+}
+.review-card {
+    display: flex;
+    gap: 40px 104px;
+    margin-bottom: 7rem;
+}
+.review-image {
+    aspect-ratio: 1.11;
+    object-fit: fill;
+    width: 360px;
+    border-radius: 24px;
+    margin: auto 0;
+}
+.review-content {
+    min-width: 240px;
+    margin: auto 0;
+}
+.review-text {
+    max-width: 100%;
+    width: 744px;
+    font-family: Urbanist, sans-serif;
+}
+.review-location {
+    font-size: 24px;
+    color: #5b5b5b;
+    font-weight: 500;
+    margin-bottom: 1.4rem;
+}
+.review-title {
+    font-size: 35px;
+    color: #000;
+    font-weight: 700;
+    margin-bottom: 3rem;
+}
+.review-description {
+    font-size: 20px;
+    color: #575757;
+    font-weight: 500;
+    margin-bottom: 3.5rem;
+}
+.rating-container {
+    display: flex;
+    gap: 24px;
+}
+.star-rating {
+    display: flex;
+    gap: 12px;
+    margin: auto 0;
+}
+.star-icon {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 40px;
+}
+.rate-text {
+    color: #115779;
+    margin: auto 0;
+    font: 600 24px Urbanist, sans-serif;
+}
+.footer{
+    background-color: #fff;
+    box-shadow: 0 0 55px hsl(190deg 67.77% 49.12%);
+}
+.footer-contant {
+    color: black;
+}
+.footer-description {
+    color: black;
+}
+.footer-link {
+    color: hsl(0, 0%, 0%);
+}
+.border{
+    margin-bottom: 11rem;
+}
+.review-form-container {
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    column-gap: 6.5rem;
+}
+.image-upload-container {
+    border-radius: 24px;
+    background-color: #e3e3e3;
+    display: flex;
+    width: 346px;
+    padding: 160px 80px;
+}
+.upload-icon {
+    object-fit: contain;
+    object-position: center;
+}
+.review-form {
+    display: flex;
+    flex-direction: column;
+    font-family: Urbanist, sans-serif;
+    width: 550px;
+    margin-bottom: 7rem;
+}
+.form-fields {
+    display: flex
+;
+    width: 100%;
+    max-width: 734px;
+    flex-direction: column;
+    font-weight: 500;
+    justify-content: flex-start;
+}
+.form-group {
+    display: flex
+;
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.form-label {
+    color: #000;
+    font-size: 18px;
+}
+.form-input {
+    border-radius: 4px;
+    margin: 1rem 0;
+    font-size: 20px;
+    color: #5b5b5b;
+    padding: 15px 17px;
+    border: 1px solid #b4b4b4;
+}
+.form-textarea {
+    border-radius: 4px;
+    margin-top: 16px;
+    gap: 10px;
+    font-size: 17px;
+    color: #5b5b5b;
+    padding: 15px 15px;
+    border: 1px solid #b4b4b4;
+}
+.form-row {
+    display: flex;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+}
+.form-column {
+    display: flex
+;
+    min-width: 240px;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 352px;
+}.select-wrapper {
+    border-radius: 4px;
+    display: flex;
+    margin-top: 16px;
+    min-height: 72px;
+    max-width: 100%;
+    width: 352px;
+    align-items: center;
+    gap: 40px 100px;
+    font-size: 20px;
+    color: #5b5b5b;
+    justify-content: space-between;
+    padding: 20px;
+    border: 1px solid #b4b4b4;
+}
+.checkbox-container {
+    display: flex;
+    margin-top: 2rem;
+    align-items: flex-start;
+    gap: 22px;
+    font-size: 20px;
+    color: #000;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.checkbox {
+    border-radius: 4px;
+    display: flex;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #000;
+}
+.checkbox-label {
+    width: 682px;
+    font-size: 11px;
+}
+.submit-button {
+    border-radius: 40px;
+    background-color: #115779;
+    margin-top: 3rem;
+    width: 271px;
+    font-size: 24px;
+    color: #fff;
+    font-weight: 500;
+    padding: 20px 28px;
+    border: none;
+}
+

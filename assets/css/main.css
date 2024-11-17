@@ -1,0 +1,128 @@
+.main-container{
+    position: relative;
+    top: 30rem;
+}
+.main-logo-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.main-title{
+    background-color: white;
+    position: relative;
+    padding: 1rem 2rem;
+    display: flex;
+    column-gap: .5rem;
+    cursor: pointer;
+}
+.main-form{
+    background-color: white;
+    padding: 2rem 0;
+}
+.border{
+    border-right: 1px dashed gray;  
+}
+.holiday-packages-grid {
+    margin-top: 5rem;
+    max-width: 1434px;
+    margin-bottom: 3rem;
+  }
+  
+  .holiday-packages-row {
+    padding-bottom: 3rem;
+    display: grid;
+    grid-template-columns: repeat(3, max-content);
+    justify-content: space-evenly;
+  }
+  
+  .holiday-package-card {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+  }
+  
+  .package-image {
+    aspect-ratio: 2.08;
+    /* object-fit: contain; */
+    width: 100%;
+    border-radius: 16px 16px 0 0;
+    width: 433px;
+    height: 208.172px;
+  }
+  
+  .package-details {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    color: rgba(74, 74, 74, 0.75);
+    padding: 1rem;
+    background-color: #fff;
+  }
+  
+  .package-header {
+    display: flex;
+    color: #000;
+    margin-bottom: 1rem;
+  }
+  
+  .package-title {
+    font-size: 18px;
+    flex-grow: 1;
+    flex-basis: auto;
+  }
+  
+  .package-duration {
+    border-radius: 4px;
+    background-color: #fff;
+    align-self: flex-start;
+    font-size: 13px;
+    white-space: nowrap;
+    padding: 5px 2px;
+    border: 1px solid #000;
+  }
+  
+  .package-itinerary {
+    height: 2rem;
+    margin-bottom: 1.5rem;
+    font-size: 13px;
+    align-self: flex-start;
+  }
+  
+  .package-inclusions {
+    height: 5rem;
+    margin-bottom: 1.5rem;
+    color: rgba(74, 74, 74, 0.85);
+    font-size: 14px;
+    width: 380px;
+  }
+  
+  .package-price-container {
+    border-radius: 8px;
+    background-color: #fff;
+    display: flex;
+    gap: 20px;
+    font-size: 13px;
+    justify-content: space-between;
+    padding: 15px 30px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+  }
+  .package-price{           
+    color: rgb(74 74 74 / 75%);
+  }
+  .price{
+    color: black;
+    font-weight: 800;
+    font-size: 16px;
+  }
+  .package-offer{
+    display: flex;
+    align-items: center;
+  }
+  .more-btn{
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+    margin-bottom: 2rem;
+  }

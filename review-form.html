@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style1.css">
+    <link rel="stylesheet" href="./assets/css/review.css">
+    <link rel="stylesheet" href="./assets/css/review-form.css">
+    <title>Review.com</title>
+
+</head>
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="./index.html" class="nav-logo">TripTime</a>
+            <div class="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="./index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="./flight.html" class="nav-link">Flight</a></li>
+                    <li class="nav-item"><a href="./main-domestic.html" class="nav-link">Holiday</a></li>
+                    <li class="nav-item"><a href="./review.html" class="nav-link">Review</a></li>
+                </ul>
+                <div class="nav-theme">
+                    <i class="ri-moon-line change-theme ri-sun-line" id="theme-button"></i>
+                </div>
+            </div>
+            <a href="./assets/page/login.html" class="log-in-item"><button class="log-in">Log in</button></a>       
+        </nav>
+    </header>
+    <main class="main">
+        <section class="search-container">
+            <div class="search container">
+            <h1 class="main-title">Share your Travel Experience in form of a story</h1>
+            <form class="search-form">
+                <input type="text" id="reviewSearch" class="search-label" placeholder="What would you like to review?" aria-label="What would you like to review?">
+                <img src="./assets/img/review-search.png" alt="" class="search-icon">
+            </form>
+            <div class="content-wrapper">
+                <header class="header-container">
+                    <div class="header-text">
+                        <h2 class="header-title">Top places with reviews</h2>
+                        <p class="header-subtitle">Travelers want to see more reviews of these places.</p>
+                    </div>
+                    <a href="">
+                        <button class="review-button">
+                            <img src="./assets/img/review-add.png" alt="" class="review-icon">
+                            <span>Write New Review</span>
+                        </button>
+                    </a>
+                </header>
+            </div>
+            <div class="review-form-container">
+                <div class="image-upload-container">
+                  <input type="file" src="" alt="" placeholder="image" accept="image/*" class="upload-icon">
+                </div>
+                <form class="review-form">
+                  <div class="form-fields">
+                    <div class="form-group">
+                      <label for="review-title" class="form-label">Title of your review</label>
+                      <input type="text" id="review-title" class="form-input" placeholder="Summarize your Travel Journey">
+                    </div>
+                    <div class="form-group">
+                      <label for="review-content" class="form-label">Your review</label>
+                      <textarea id="review-content" class="form-textarea" rows="5" placeholder="A detailed review of your Travel Journey. Travellers will love to know your experience"></textarea>
+                    </div>
+                    <div class="form-row">
+                      <div class="form-column">
+                        <label for="location" class="form-label">Location</label>
+                        <input type="text" id="location" class="form-input" placeholder="Enter Travel Location">
+                      </div>
+                      <div class="form-column">
+                        <label for="travel-date" class="form-label">When did you travel?</label>
+                        <div class="select-wrapper">
+                          <span class="select-text">Select One</span>
+                          <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/c251e28914fbe772d55e1ee0669802778f93393993d413c7062ab207db318028?placeholderIfAbsent=true&amp;apiKey=96f18ca88f1e4d299702f531d83c1553" alt="Dropdown icon" class="select-icon">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="checkbox-container">
+                    <input type="checkbox" id="certify" class="checkbox">
+                    <label for="certify" class="checkbox-label">
+                      I certify that the information in this review is based solely on my own experiences with the product or service in question. I also attest that I have no personal or professional affiliation with the business in question and have not been given any incentives or payment from the business to write this review. I am aware that fake reviews are strictly prohibited on Tripadvisor.
+                    </label>
+                  </div>
+                  <a href="./review.html">
+                  <button type="submit" class="submit-button">Submit Review</button>
+                </a>
+                </form>
+              </div>
+        </section>
+    </main>
+    <footer class="footer section">
+        <div class="footer-container container">
+            <div class="footer-contant grid">
+                <div class="footer-data">
+                    <h3 class="footer-title">TripTime</h3>
+                    <p class="footer-description">
+                        Travel you choose the
+                        <br>
+                        destination, we offer you the 
+                        <br>
+                        experience.
+                    </p>
+                </div>
+                <div class="footer-data">
+                    <h3 class="footer-subtitle">About</h3>
+                    <ul>
+                        <li class="footer-item">
+                            <a href="" class="footer-link">About Us</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-link">Features</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-link">New &amp; Blog</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-data">
+                    <h3 class="footer-subtitle">Company</h3>
+                    <ul>
+                        <li class="footer-item">
+                            <a href="" class="footer-link">Team</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-link">Plan y Pricing</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-link">Become a member</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-data">
+                    <h3 class="footer-subtitle">Support</h3>
+                    <ul>
+                        <li class="footer-item">
+                            <a href="" class="footer-link">FAQs</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-link"> Support Center</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-link">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-rights">
+                <p class="footer-copy">© 2024 TripTime. All rigths reserved.</p>
+                <div class="footer-terms">
+                    <a href="#" class="footer-terms-link">Terms &amp; Agreements</a>
+                    <a href="#" class="footer-terms-link">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
